@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --branding-primary: #FF33CC;
+    --branding-secondary: #333333;
+}
+
+.background-primary {
+    background-color: var(--branding-primary);
+}
+
+.background-secondary {
+    background-color: var(--branding-secondary);
+}
+
+.color-primary {
+    color: var(--branding-primary);
+}
+
+.color-secondary {
+    color: var(--branding-secondary);
+}
