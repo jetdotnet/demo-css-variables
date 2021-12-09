@@ -13,6 +13,7 @@ export class StyleService {
 
   set brandingPrimary(color: string) {
     this.document.documentElement.style.setProperty('--branding-primary', color);
+    this.document.documentElement.style.setProperty('--kendo-list-item-selected-bg', color);
   }
 
   get brandingSecondary() {

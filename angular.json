@@ -50,6 +50,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@progress/kendo-theme-nouvelle/dist/all.css",
               "src/styles.css"
             ],
             "scripts": []
